@@ -1,0 +1,7 @@
+C:\Users\Sebastian Sampson-To\source\repos\TBA\TBA\bin\Debug\TBA.exe.config
+C:\Users\Sebastian Sampson-To\source\repos\TBA\TBA\bin\Debug\TBA.exe
+C:\Users\Sebastian Sampson-To\source\repos\TBA\TBA\bin\Debug\TBA.pdb
+C:\Users\Sebastian Sampson-To\source\repos\TBA\TBA\obj\Debug\TBA.csprojAssemblyReference.cache
+C:\Users\Sebastian Sampson-To\source\repos\TBA\TBA\obj\Debug\TBA.csproj.CoreCompileInputs.cache
+C:\Users\Sebastian Sampson-To\source\repos\TBA\TBA\obj\Debug\TBA.exe
+C:\Users\Sebastian Sampson-To\source\repos\TBA\TBA\obj\Debug\TBA.pdb
