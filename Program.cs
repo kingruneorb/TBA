@@ -1,12 +1,16 @@
- using System;
- 
-namespace Text_Based_Adventure
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace TBA
 {
-  class MainClass
-  {
-      public static void Main (string[] args)
-      {
-    
-      }
-  }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+        }
+    }
 }
