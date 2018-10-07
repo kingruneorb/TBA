@@ -157,9 +157,5 @@ namespace TBA
             }
 
         }
-
-awd
-
-w
     }
 }
