@@ -128,6 +128,20 @@ namespace TBA
                         correct = 0;
                     }
                 }
+
+                if (Race == "sips fiend")
+                {
+                    Console.WriteLine("Is this the race you wish to play?");
+                    Input = Console.ReadLine().ToLower();
+                    if (Input == "yes")
+                    {
+                        correct = 1;
+                    }
+                    if (Input == "no")
+                    {
+                        correct = 0;
+                    }
+                }
                 else { }
             } while (correct == 0);
             correct = 0;
@@ -215,6 +229,20 @@ namespace TBA
                 }
 
                 if (Class == "paladin")
+                {
+                    Console.WriteLine("Is this the class you wish to play?");
+                    Input = Console.ReadLine().ToLower();
+                    if (Input == "yes")
+                    {
+                        correct = 1;
+                    }
+                    if (Input == "no")
+                    {
+                        correct = 0;
+                    }
+                }
+
+                if (Class == "sips merchant")
                 {
                     Console.WriteLine("Is this the class you wish to play?");
                     Input = Console.ReadLine().ToLower();
