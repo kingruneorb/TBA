@@ -232,34 +232,34 @@ namespace TBA
             correct = 0;
 
             //Racial Bonuses
-            if (Race == "Human")
+            if (Race == "human")
             {
                 One_Handed++;
                 Two_Handed++;
                 Ranged++;
                 Magic++;
             }
-            if (Race == "Elf")
+            if (Race == "elf")
             {
                 One_Handed++;
                 Ranged = Ranged + 2;
                 Magic = Magic + 2;
             }
 
-            if (Race == "Dwarf")
+            if (Race == "dwarf")
             {
                 One_Handed++;
                 Two_Handed = Two_Handed + 2;
                 Ranged++;
             }
 
-            if (Race == "Orc")
+            if (Race == "orc")
             {
                 One_Handed = One_Handed + 2;
                 Two_Handed = Two_Handed + 2;
             }
 
-            if (Race == "Sips Fiend")
+            if (Race == "sips fiend")
             {
                 One_Handed = One_Handed + 2;
                 Two_Handed = Two_Handed + 2;
@@ -268,7 +268,7 @@ namespace TBA
             }
              
             //Class Bonuses
-            if (Class == "Hunter")
+            if (Class == "hunter")
             {
                 One_Handed = One_Handed + 2;
                 Two_Handed++;
@@ -276,31 +276,31 @@ namespace TBA
 
             }
 
-            if (Class == "Fighter")
+            if (Class == "fighter")
             {
                 One_Handed = One_Handed + 2;
                 Two_Handed = Two_Handed + 2;
             }
 
-            if (Class == "Paladin")
+            if (Class == "paladin")
             {
                 Two_Handed = Two_Handed + 2;
                 Magic = Magic + 2;
             }
 
-            if (Class == "Mage")
+            if (Class == "mage")
             {
                 One_Handed = One_Handed + 2;
                 Magic = Magic + 2;
             }
 
-            if (Class == "Rogue")
+            if (Class == "rogue")
             {
                 One_Handed = One_Handed + 2;
                 Ranged = Ranged + 2;
             }
 
-            if (Class == "Sips Merchant")
+            if (Class == "sips merchant")
             {
                 One_Handed = One_Handed + 2;
                 Two_Handed = Two_Handed + 2;
@@ -314,9 +314,20 @@ namespace TBA
             Console.WriteLine("Two Handed:" + " " + Two_Handed.ToString());
             Console.WriteLine("Ranged:" + " " + Ranged.ToString());
             Console.WriteLine("Magic:" + " " + Magic.ToString());
+            Console.WriteLine("");
+            Console.WriteLine("Continue?");
+            Input = Console.ReadLine().ToLower();
+            if (Input == "yes")
+            {
+                correct = 1;
+            }
+            if (Input == "no")
+            {
+                correct = 0;
+            }
 
 
-
+            Console.Clear();
             Console.WriteLine("Inventory Test: Inventory Below");
             Input = Console.ReadLine().ToUpper();
             //Inventory System:
